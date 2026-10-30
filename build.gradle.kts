@@ -1,16 +1,5 @@
-plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
-}
-android {
-    namespace = "it.notenotify.app"
-    compileSdk = 35
 
-    defaultConfig {
-        applicationId = "it.notenotify.app"
-        minSdk = 26
-        targetSdk = 35
-        versionCode = 1
-        versionName = "0.1"
-    }
+plugins {
+    id("com.android.application") version "8.7.3" apply false
+    id("org.jetbrains.kotlin.android") version "2.0.21" apply false
 }
